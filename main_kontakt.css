@@ -1,0 +1,209 @@
+html, body{
+    background-color: white;
+    color: black;
+}
+.calosc{
+    max-width: 1100px;
+    max-height: 750px;
+    margin: 0px auto;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0 0 30px;
+    margin-top: 30px;
+    
+}
+.main{
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.gora{
+    background-color: #222;
+    color: white;
+    height: 99px;
+    width: 1100px;
+    border-bottom: 1px solid white ;
+    padding-top: 0%;
+    text-decoration: none;
+}
+.lewa{
+    background: #222;
+    color: white;
+    width: 300px;
+    height: 620px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid white;
+    /*line-height: 620px;*/
+}
+.srodek{
+    background: #222;
+    float: left;
+    display: flex;
+    height: 620px;
+    width: 799px;
+    
+}
+.aaa{
+    margin: 0 auto;
+    margin-top: 20%;
+   
+}
+.dol{
+    clear: both;
+    width: 1100px;
+    height: 29px;
+    background-color: #222;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+b{
+    color: #c4302b;
+ 
+}
+img{
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+
+}
+center{
+    color: white;
+}
+.lista{
+    display: inline-flexbox;
+    margin-top: 0px;
+    margin-left: 100px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-top: 40px;
+    padding-right: 110px;
+
+}
+a{
+    text-decoration: none;
+}
+td{
+    color: white;
+    text-align: left;
+}
+table{
+    padding-left: 70px
+}
+/*
+nav ul{
+    padding: 0px;
+    list-style: none;
+    margin: 0;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0 3px;
+    
+}
+
+nav a {
+    color: #000;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background: grey;
+    color: #fff;
+}
+*/
+
+@import url("font-awesome.min.css");
+@import url("fonts-min.css");
+@import url("normalize.css");
+
+
+
+ul {
+	display: flexbox;
+	position: absolute;
+	top: 52%;
+	left: 21%;
+	transform: translate(-50%,-50%);
+}
+
+
+ul li {
+	list-style: none ;
+}
+
+ ul li a {
+	 width: 100px;
+	 height: 100px;
+	 background-color: #FFFFFF;
+	 font-size: 60px;
+	 line-height: 100px;
+     margin: 0 10px;
+	 display: block;
+	 border-radius: 50%;
+	 position: relative;
+	 overflow: hidden;
+	 border: solid 3px #ffffff;
+	 
+}
+
+ul li a .fa {
+	position: relative;
+	color: #262626;
+	transition: .5s;
+	z-index: 3;
+}
+
+ul li a:hover .fa {
+	color: #FFFFFF;
+	transform: rotateY(360deg);
+}
+
+
+ul li a:before {
+	content: '';
+	position: absolute;
+	top: 100% ;
+	left: 0% ;
+	width: 100%;
+	height: 100%;
+	background-color: #FF0000;
+	transition: .5s;
+	z-index:1 ;
+}
+
+ul li a:hover:before {
+	top: 0 ;
+}
+
+
+ul li:nth-child(1) a:before {
+	background-color:#3b5999 ;
+}
+
+ul li:nth-child(2) a:before {
+	background-color:#55acee ;
+}
+
+ul li:nth-child(3) a:before {
+	background-color:#cd201f ;
+}
+
+ul li:nth-child(4) a:before {
+	background-color:#dd4b39 ;
+}
+
