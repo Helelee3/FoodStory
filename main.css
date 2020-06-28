@@ -73,6 +73,7 @@ img{
     width: 250px;
     margin-left: 20px;
 
+
 }
 center{
     color: white;
@@ -127,10 +128,7 @@ nav a:hover{
 
 ul {
 	display: flexbox;
-	position: absolute;
-	top: 52%;
-	left: 21%;
-	transform: translate(-50%,-50%);
+	
 }
 
 
